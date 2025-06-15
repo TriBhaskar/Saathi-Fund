@@ -24,7 +24,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = SaathiFundTables.SaathiFundUsers.TABLE_NAME)
-public class SaathFundUsers implements UserDetails, Serializable {
+public class SaathiFundUsers implements UserDetails, Serializable {
 
     @Serial
     private static final long serialVersionUID = 1L;
